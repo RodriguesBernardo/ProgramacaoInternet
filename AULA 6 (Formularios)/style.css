@@ -1,0 +1,19 @@
+:root {
+    --Vermelho: #BF4822;
+    --Cinza: #5154;
+    --Verde: #0D9A6B;
+    --Azul: #0D579A;
+    --FonteTexto: 'Hittedal Sans';
+    --FonteTitulo: 'Nixie One';
+}
+
+.titulo {
+    color: var(--Verde);
+    font-family: var(--FonteTitulo);
+    background-color: aquamarine;
+}
+
+.principal {
+    color: var(--Vermelho);
+    font-family: var(--FonteTexto);
+} 

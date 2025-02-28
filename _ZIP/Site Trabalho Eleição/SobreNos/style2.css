@@ -1,0 +1,74 @@
+:root {
+    --BrancoFundo: #EBE3E5;
+    --MarromPrincipal: #BB7533;
+    --PretoTitulo: #625F5F;
+    --MarromBotaoNome: #E5AE77;
+    --MarromBotaoCPF: #ECC9A7;
+    --LaranjaBotaoData: #D98F45;
+    --PretoAvancar: #625F5F;
+    --MarromVoltar: #B37E5C;
+    --Preto: #261D19;
+    --FonteLegenda: 'Leto Text Sans Defect';
+    --FonteTitulo: 'Hittedal Sans';
+    --FonteBotao: 'Open Sans';
+    --FonteTexto: 'Nixie One';
+
+
+
+}
+
+body {
+    background-color: var(--BrancoFundo);
+    font-family: var(--FontePrincipal);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 0px;
+}
+
+.titulo {
+    color: var(--MarromPrincipal);
+    font-size: 50px;
+    text-justify: center;
+    margin-top: 5%;
+    text-align: center;
+    font-family: var(--FonteTitulo);
+}
+
+.principal {
+    color: var(--Preto);
+    font-family: var(--FonteTexto);
+    width: 80%;
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left:10%;
+    margin-bottom: 5%;
+} 
+
+.img {
+    width: 60%;
+    margin-top: 5%;
+    margin-left:10%;
+}
+
+
+.legenda {
+    border: none; 
+    display: flex;   
+    margin-left: 10%;
+    text-align: center;
+    width: 60%;
+}
+
+
+.botao{
+    background-color: var(--MarromPrincipal);
+    font-family: var(--FonteBotao);
+    color: var(--Preto);
+    font-size: 200%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 100px;
+}

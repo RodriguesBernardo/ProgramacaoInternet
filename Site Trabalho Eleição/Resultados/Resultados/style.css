@@ -1,0 +1,89 @@
+:root {
+    --BrancoFundo: #EBE3E5;
+    --MarromPrincipal: #BB7533;
+    --PretoTitulo: #625F5F;
+    --MarromBotaoNome: #E5AE77;
+    --MarromBotaoCPF: #ECC9A7;
+    --LaranjaBotaoData: #D98F45;
+    --PretoAvancar: #625F5F;
+    --MarromVoltar: #B37E5C;
+    --Preto: #261D19;
+    --FonteLegenda: 'Leto Text Sans Defect';
+    --FonteTitulo: 'Hittedal Sans';
+    --FonteBotao: 'Open Sans';
+    --FonteTexto: 'Nixie One';
+
+}
+
+body {
+    background-color: var(--BrancoFundo);
+    flex-direction: column
+}
+
+.titulo {
+    color: var(--PretoTitulo);
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--FonteTitulo);
+}
+
+.principal {
+    font-family: var(--FonteTitulo);
+    color: var(--Preto);
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto{
+    font-size: 20px;
+    font-family: var(--FonteTexto);
+    text-align: justify;
+    text-indent: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.tabela{
+    border-color: var(--Preto);
+    border: 1px solid;
+}
+
+.container-ranking{
+    text-align: justify;
+    font-size: large;
+    font-family: var(--FonteBotao);
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 800px;
+    line-height: 40px;
+}
+
+.botao{
+    margin-top: 12%;
+    width: 15%;
+    border-radius: 100px;
+    background-color: var(--MarromPrincipal);
+    font-family: var(--FonteBotao);
+    color: var(--Preto);
+    font-size: 200%;
+    margin-left: 80%;
+}
+
+.piechart {
+    margin-top: 80px;
+    display: block;
+    position: absolute;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        #4036005d 0 22.2%,
+        #001f3f 0 65%,
+        #708090 0 80%, 
+        #FF6F61 0 90.6%,
+        #d39c05 0 );
+}

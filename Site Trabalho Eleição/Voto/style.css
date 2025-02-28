@@ -1,0 +1,67 @@
+:root {
+    --BrancoFundo: #EBE3E5;
+    --MarromPrincipal: #BB7533;
+    --PretoTitulo: #625F5F;
+    --MarromBotaoNome: #E5AE77;
+    --MarromBotaoCPF: #ECC9A7;
+    --LaranjaBotaoData: #D98F45;
+    --PretoAvancar: #625F5F;
+    --MarromVoltar: #B37E5C;
+    --Preto: #261D19;
+    --FonteLegenda: 'Leto Text Sans Defect';
+    --FonteTitulo: 'Hittedal Sans';
+    --FonteBotao: 'Open Sans';
+    --FonteTexto: 'Nixie One';
+
+}
+
+body {
+    background-color: var(--BrancoFundo);
+    font-family: var(--FontePrincipal);
+}
+
+
+
+.titulo {
+    color: var(--PretoTitulo);
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--FonteTitulo);
+}
+
+.principal {
+    color: var(--Preto);
+    font-size: 25px;
+    text-align: justify;
+    font-family: var(--FonteTexto);
+    text-indent: 1.5em;
+}
+
+.container{
+    display: flex;
+}
+
+.img{
+    display: flex;
+    height:350px;
+    width: auto;
+    margin-top: 50px;
+    margin-right: auto;
+}
+
+.container-botao{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.botao{
+    border-radius: 30px;
+    background-color: var(--PretoAvancar);
+    font-family: var(--FonteBotao);
+    color: white;
+    font-size: 20px;
+    width: 180px;
+    margin-right: 100px;
+    margin-left: 50px;
+}

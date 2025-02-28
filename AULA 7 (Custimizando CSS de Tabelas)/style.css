@@ -1,0 +1,18 @@
+table, th,td{
+    border: 1px solid black;
+}
+
+table{
+   width: 100%;
+   border-collapse: collapse; /* deixa linha simples */
+}
+
+td{
+    height: 50px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+tbody>tr:trinth-child(2){
+    background-color: blue;
+}

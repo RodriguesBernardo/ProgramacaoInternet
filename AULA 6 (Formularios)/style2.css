@@ -1,0 +1,72 @@
+:root {
+    --Vermelho: #BF4822;
+    --Cinza: #5154;
+    --Verde: #0D9A6B;
+    --Azul: #0D579A;
+    --FonteTexto: 'Hittedal Sans';
+    --FonteTitulo: 'Nixie One';
+}
+
+.body{
+    color: white;
+}
+
+#area {
+    position: relative;
+    height: 270px;
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+}
+
+
+fieldset {
+    background-color: var(--Cinza);
+    width: 300px;
+    height: 250px;
+}
+
+legend {
+    font-weight: bold;
+    font-family: var(--FonteTexto);
+}
+
+#formulario label {
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+    font-family: var(--FonteTitulo);
+}
+
+#formulario input.campo_nome {
+    background-color: var(--Azul);
+    position: absolute;
+    left: 95px;
+    top: 23px;
+    width: 225px;
+}
+
+#formulario input.campo_email {
+    background-color: var(--Azul);
+    font-family: var(--FonteTitulo);
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+
+#formulario textarea.msg {
+    font-family: var(--FonteTitulo);
+    position: absolute;
+    background-color: var(--Azul);
+}
+
+
+#formulario input.btn_submit {
+    position: absolute;
+    bottom: 0.5em;
+    right: 10px;
+    background-color: var(--Verde);
+}

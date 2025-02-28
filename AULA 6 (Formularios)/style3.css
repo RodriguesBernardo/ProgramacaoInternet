@@ -1,0 +1,55 @@
+:root {
+    --Vermelho: #BF4822;
+    --Cinza: rgba(106, 104, 106, 0.267);
+    --Verde: #0D9A6B;
+    --Azul: #0D579A;
+    --FonteTexto: 'Hittedal Sans';
+    --FonteTitulo: 'Nixie One';
+}
+
+.titulo {
+    color: var(--Verde);
+    font-family: var(--FonteTitulo);
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 30vh;
+    margin-left: 30vh;
+}
+
+.navbar{
+    text-align: center;
+    background-color: var(--Cinza);
+    border-radius: 20px;
+    font-family: var(--FonteTitulo);
+    font-size: 20px;
+    margin-right: 50vh;
+    margin-left: 50vh;
+}
+
+.principal {
+    color: var(--Vermelho);
+    font-family: var(--FonteTexto);
+    text-align: center;
+} 
+.principal2 {
+    font-family: var(--FonteTitulo);
+    text-align: center;
+} 
+.top{
+    margin-right: 20px;
+}
+
+.img{
+    width: 2%;
+    margin-right: 1%;
+}
+.imgprincipal{
+    vertical-align: center;
+    width: 20%;
+    border-color: black;
+    border:solid;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
